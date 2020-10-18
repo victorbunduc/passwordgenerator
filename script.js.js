@@ -9,9 +9,6 @@ function writePassword() {
   passwordText.value = password;
 
 }
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
-
 
 // Object of all the function names that we will use to create random letters of password
 const randomFunc = {
